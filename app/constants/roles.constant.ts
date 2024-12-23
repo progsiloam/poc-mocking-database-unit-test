@@ -1,0 +1,15 @@
+export enum Roles {
+  None = 0,
+  SiloamITProductSupport = 1,
+  SiloamITSecurityAdmin = 2,
+  SiloamVendorManagement = 3,
+  SiloamFinance = 4,
+  SiloamPurchasing = 5,
+  SiloamITSecurityStaff = 6,
+  SiloamVoBApprover = 7,
+  VendorAdmin = 8,
+  VendorInvoice = 9,
+  SiloamPreQRequester = 10,
+  SiloamPreQScorer = 11,
+  VendorRegistrant = 99,
+}

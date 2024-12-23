@@ -1,0 +1,6 @@
+{
+    "clearMocks": true,
+    "setupFilesAfterEnv": [
+        "<rootDir>/tests/setup.ts"
+    ]
+}

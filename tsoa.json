@@ -1,0 +1,19 @@
+{
+    "entryFile": "app/app.ts",
+    "noImplicitAdditionalProperties": "throw-on-extras",
+    "controllerPathGlobs": [
+        "app/controllers/*.controller.ts"
+    ],
+    "spec": {
+        "basePath": "/api",
+        "outputDirectory": "./app",
+        "specVersion": 3,
+        "name": "Siloam Service for Template ExpressJS API",
+        "description": "API for Template ExpressJS internal process"
+    },
+    "routes": {
+        "basePath": "/api",
+        "routesDir": "./app",
+        "iocModule": "./app/ioc"
+    }
+}
